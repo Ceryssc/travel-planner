@@ -1,0 +1,19 @@
+{
+  "name": "travel-planner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ceryssc/travel-planner.git",
+  "author": "Ceryssc <cs.clarke90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "knex": "knex",
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "jest"
+  }
+}
